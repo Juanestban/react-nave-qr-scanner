@@ -6,7 +6,7 @@ module.exports = {
   },
   extends: ['standard', 'prettier'],
   parserOptions: {
-    ecmaVersion: 13,
+    ecmaVersion: 12,
     sourceType: 'module',
   },
   rules: {
@@ -14,5 +14,6 @@ module.exports = {
     'no-unused-vars': 0,
     'import/first': 0,
     'space-before-function-paren': 0,
+    'no-useless-return': 0,
   },
 }
